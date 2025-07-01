@@ -9,41 +9,41 @@ const Hero = () => {
   const { isDark } = useTheme();
 
   return (
-    <section className="hero-section" style={{ 
-      height: '100vh', 
+    <section className="hero-section" style={{
+      height: '100vh',
       position: 'relative',
-      background: isDark 
+      background: isDark
         ? 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%)'
         : 'linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)'
     }}>
       {/* 3D Background */}
-      <div style={{ 
-        position: 'absolute', 
-        top: 0, 
-        left: 0, 
-        width: '100%', 
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
         height: '100%',
         zIndex: 1
       }}>
         <Canvas>
           <PerspectiveCamera makeDefault position={[0, 0, 5]} />
           <ambientLight intensity={isDark ? 0.3 : 0.5} />
-          <directionalLight 
-            position={[10, 10, 5]} 
-            intensity={isDark ? 0.8 : 1} 
+          <directionalLight
+            position={[10, 10, 5]}
+            intensity={isDark ? 0.8 : 1}
             color={isDark ? '#3b82f6' : '#ffffff'}
           />
-          <pointLight 
-            position={[-10, -10, -5]} 
+          <pointLight
+            position={[-10, -10, -5]}
             intensity={isDark ? 0.5 : 0.3}
             color={isDark ? '#8b5cf6' : '#3b82f6'}
           />
-          
+
           <Suspense fallback={null}>
             <FloatingGeometry />
             <Environment preset={isDark ? 'night' : 'dawn'} />
           </Suspense>
-          
+
           <OrbitControls
             enableZoom={false}
             enablePan={false}
@@ -87,7 +87,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <h1 className="hero-title">
-            Gustavo Henrique
+            Gustavo Feitosa
           </h1>
         </motion.div>
 

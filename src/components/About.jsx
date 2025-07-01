@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   const timeline = [
-        {
+    {
       year: '2024',
       title: 'Full Stack Developer',
       company: 'Freelance',
@@ -88,7 +88,7 @@ const About = () => {
                 color: 'white',
                 boxShadow: '0 8px 25px var(--glow)'
               }}>
-                GH
+                GF
               </div>
               <div>
                 <h3 style={{
@@ -97,7 +97,7 @@ const About = () => {
                   color: 'var(--text-primary)',
                   marginBottom: '0.5rem'
                 }}>
-                   Gustavo Henrique Soares Feitosa
+                  Gustavo Feitosa
                 </h3>
                 <div style={{
                   display: 'flex',
@@ -117,8 +117,8 @@ const About = () => {
               fontSize: '1rem',
               marginBottom: '2rem'
             }}>
-              Passionate Full Stack Developer and Software Engineering student with a love for creating 
-              innovative digital solutions. I specialize in modern web technologies and enjoy building 
+              Passionate Full Stack Developer and Software Engineering student with a love for creating
+              innovative digital solutions. I specialize in modern web technologies and enjoy building
               applications that solve real-world problems.
             </p>
 
@@ -173,10 +173,10 @@ const About = () => {
                   <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>
                     Portuguese
                   </span>
-                  <span style={{ 
-                    color: 'var(--accent)', 
+                  <span style={{
+                    color: 'var(--accent)',
                     fontSize: '0.9rem',
-                    fontWeight: 600 
+                    fontWeight: 600
                   }}>
                     Native
                   </span>
@@ -189,10 +189,10 @@ const About = () => {
                   <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>
                     English
                   </span>
-                  <span style={{ 
-                    color: 'var(--accent)', 
+                  <span style={{
+                    color: 'var(--accent)',
                     fontSize: '0.9rem',
-                    fontWeight: 600 
+                    fontWeight: 600
                   }}>
                     Intermediary
                   </span>

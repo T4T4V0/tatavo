@@ -18,7 +18,7 @@ const Contact = () => {
       icon: Mail,
       label: 'Email',
       value: 'gustavo.hsf03@gmail.com',
-      href: 'mailto:ednaldobritojr004@gmail.com',
+      href: 'mailto:gustavo.hsf03@gmail.com',
       color: '#3b82f6'
     },
     {
@@ -313,7 +313,7 @@ const Contact = () => {
                     required
                     className="form-input"
                     animate={{
-                      boxShadow: focusedField === 'name' 
+                      boxShadow: focusedField === 'name'
                         ? '0 0 20px var(--glow), inset 0 2px 8px var(--shadow)'
                         : 'inset 0 2px 8px var(--shadow)'
                     }}
@@ -343,7 +343,7 @@ const Contact = () => {
                     required
                     className="form-input"
                     animate={{
-                      boxShadow: focusedField === 'email' 
+                      boxShadow: focusedField === 'email'
                         ? '0 0 20px var(--glow), inset 0 2px 8px var(--shadow)'
                         : 'inset 0 2px 8px var(--shadow)'
                     }}
@@ -374,7 +374,7 @@ const Contact = () => {
                   required
                   className="form-input"
                   animate={{
-                    boxShadow: focusedField === 'subject' 
+                    boxShadow: focusedField === 'subject'
                       ? '0 0 20px var(--glow), inset 0 2px 8px var(--shadow)'
                       : 'inset 0 2px 8px var(--shadow)'
                   }}
@@ -404,7 +404,7 @@ const Contact = () => {
                   rows={6}
                   className="form-input"
                   animate={{
-                    boxShadow: focusedField === 'message' 
+                    boxShadow: focusedField === 'message'
                       ? '0 0 20px var(--glow), inset 0 2px 8px var(--shadow)'
                       : 'inset 0 2px 8px var(--shadow)'
                   }}

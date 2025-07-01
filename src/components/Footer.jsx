@@ -41,7 +41,7 @@ const Footer = () => {
             marginBottom: '1rem',
             boxShadow: '0 8px 25px var(--glow)'
           }}>
-            GH
+            GF
           </div>
           <h3 style={{
             fontSize: '1.2rem',
@@ -49,7 +49,7 @@ const Footer = () => {
             color: 'var(--text-primary)',
             marginBottom: '0.5rem'
           }}>
-            Gustavo Henrique
+            Gustavo Feitosa
           </h3>
           <p style={{
             color: 'var(--text-secondary)',
@@ -139,7 +139,7 @@ const Footer = () => {
             color: 'var(--text-secondary)',
             fontSize: '0.9rem'
           }}>
-            © {currentYear} Gustavo Henrique. All rights reserved.
+            © {currentYear} Gustavo Feitosa. All rights reserved.
           </div>
 
           <div style={{
@@ -222,7 +222,7 @@ const Footer = () => {
           opacity: 0.05,
           animation: 'float 6s ease-in-out infinite'
         }} />
-        
+
         <div style={{
           position: 'absolute',
           bottom: '20%',

@@ -1,4 +1,4 @@
-# 🚀 Ednaldo Brito - 3D Portfolio
+# 🚀 Gustavo Feitosa - 3D Portfolio
 
 A stunning, modern 3D portfolio website showcasing full-stack development skills with immersive Three.js animations and professional dark mode support.
 
@@ -46,10 +46,10 @@ A stunning, modern 3D portfolio website showcasing full-stack development skills
 
 ```bash
 # Clone the repository
-git clone https://github.com/ednaldobrito/portfolio-3d.git
+git clone https://github.com/T4T4V0/tatavo.git
 
 # Navigate to project directory
-cd portfolio-3d
+cd tatavo
 
 # Install dependencies
 npm install
@@ -152,15 +152,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Ednaldo Rodrigo Brito da Silva Júnior**
-- 📧 Email: ednaldobritojr004@gmail.com
-- 📱 Phone: (86) 98818-1978
+**Gustavo Feitosa**
+- 📧 Email: gustavo.hsf03@gmail.com
+- 📱 Phone: (86) 98119-2003
 - 📍 Location: Teresina, PI, Brazil
-- 🎓 Software Engineering Student at FIAP
+- 🎓 Software Engineering Student
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ednaldobrito/portfolio-3d/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/T4T4V0/tatavo/issues).
 
 ## ⭐ Show your support
 
@@ -169,6 +169,6 @@ Give a ⭐️ if this project helped you or if you found it interesting!
 ---
 
 <div align="center">
-  <p>Made with ❤️, ☕, and lots of 🧠 by Ednaldo Brito</p>
+  <p>Made with ❤️, ☕, and lots of 🧠 by Gustavo Feitosa</p>
   <p>Built with React • Three.js • Framer Motion • Vite</p>
 </div>

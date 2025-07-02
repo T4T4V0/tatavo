@@ -285,11 +285,21 @@ const Contact = () => {
             <h3 style={{
               fontSize: '1.5rem',
               fontWeight: 700,
-              marginBottom: '2rem',
+              marginBottom: '1rem',
               color: 'var(--text-primary)'
             }}>
               Send Message
             </h3>
+
+            <p style={{
+              fontSize: '1rem',
+              color: 'var(--text-secondary)',
+              marginBottom: '2rem',
+              lineHeight: 1.6
+            }}>
+              Have a project in mind or want to collaborate? I'd love to hear from you!
+              Send me a message and I'll get back to you as soon as possible.
+            </p>
 
             <form onSubmit={handleSubmit} style={{
               display: 'flex',
